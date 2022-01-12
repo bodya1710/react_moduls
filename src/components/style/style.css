@@ -1,0 +1,11 @@
+.block_users_posts{
+    display: flex;
+}
+.container{
+    padding: 30px 10px;
+}
+.wrap_posts,
+.wrap_users
+{
+    width: 50%;
+}
