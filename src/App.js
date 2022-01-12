@@ -1,8 +1,10 @@
 
+import Spaces from "./components/Spaces/Spaces";
 function App() {
   return (
-     <div>
-    </div>
+      <div>
+        <Spaces/>
+      </div>
   );
 }
 
