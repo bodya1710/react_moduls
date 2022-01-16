@@ -1,0 +1,5 @@
+.wrap{
+    display: flex;
+    padding: 15px;
+    column-gap: 50px;
+}
