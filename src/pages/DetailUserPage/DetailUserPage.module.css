@@ -1,0 +1,15 @@
+.wrap_user{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.wrap_user a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 25px;
+    border: 2px solid black;
+}
+.wrap_link{
+    display: flex;
+}

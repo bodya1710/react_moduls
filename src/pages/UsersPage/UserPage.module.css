@@ -1,0 +1,7 @@
+.wrap_users_element{
+    display: flex;
+}
+.wrap_user_detail,
+.wrap_users{
+    width: 50%;
+}
