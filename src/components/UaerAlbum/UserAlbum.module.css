@@ -1,0 +1,6 @@
+.wrap_album a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 8px;
+}

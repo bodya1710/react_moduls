@@ -15,7 +15,9 @@ const UsersPage = () => {
 
     return (
         <div className={css.wrap_users_element}>
-            <div className={css.wrap_users}>{users.map(user => <User key={user.id} user={user}/>)}</div>
+            <div className={css.wrap_users}>
+                {users.map(user => <User key={user.id} user={user}/>)}
+            </div>
             <div className={css.wrap_user_detail}><Outlet/></div>
         </div>
     );

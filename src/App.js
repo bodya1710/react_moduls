@@ -1,6 +1,5 @@
 import {Routes, Route} from "react-router-dom";
 
-
 import HomePage from "./pages/HomePage/HomePage";
 import UsersPage from "./pages/UsersPage/UsersPage";
 import PostsPage from "./pages/PostsPage/PostsPage";
@@ -10,6 +9,8 @@ import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import Layout from "./components/Layout/Layout";
 import AllPostsUser from "./pages/AllPostsUser/AllPostsUser";
 import AllCommentsPost from "./pages/AllCommentsPost/AllCommentsPost";
+import UserAlbums from "./pages/UserAlbums/UserAlbums";
+import PhotoPage from "./pages/PhotoPage/PhotoPage";
 
 function App() {
     return (
@@ -18,6 +19,9 @@ function App() {
                         <Route path={'/'} element={<Layout/>}>
                             <Route index element={<HomePage/>}/>
                             <Route path={'users'} element={<UsersPage/>}>
+                                <Route path={':id/albums'} element={<UserAlbums/>}>
+                                    <Route path={':id/photos'} element={<PhotoPage/>}/>
+                                </Route>
                                 <Route path={':id'} element={<DetailUserPage/>}>
                                     <Route path={'posts'} element={<AllPostsUser/>}/>
                                 </Route>
