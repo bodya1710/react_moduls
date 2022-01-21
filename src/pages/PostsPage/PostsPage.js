@@ -1,7 +1,10 @@
 import React, {useEffect, useState} from 'react';
+import {Outlet} from "react-router-dom";
 
 import {postService} from "../../services/post.service";
 import Posts from "../../components/Posts/Posts";
+import css from './PostsPage.module.css';
+
 
 const PostsPage = () => {
 
@@ -12,9 +15,9 @@ const PostsPage = () => {
     },[]);
 
     return (
-        <div>
-
-            {posts.map(post => <Posts key={post.id} posts={post}/>)}
+        <div className={css.wrap_posts_element}>
+            <div className={css.wrap_post}>{posts.map(post => <Posts key={post.id} posts={post}/>)}</div>
+            <div className={css.wrap_post_detail}><Outlet/></div>
         </div>
     );
 };

@@ -27,7 +27,6 @@ function App() {
                                     <Route path={'comments'} element={<AllCommentsPost/>}/>
                                 </Route>
                             </Route>
-
                             <Route path={'*'} element={<NotFoundPage/>}/>
                         </Route>
                     </Routes>

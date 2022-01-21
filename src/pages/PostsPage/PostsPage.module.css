@@ -1,0 +1,7 @@
+.wrap_posts_element{
+    display: flex;
+}
+.wrap_post,
+.wrap_post_detail{
+    width: 50%;
+}

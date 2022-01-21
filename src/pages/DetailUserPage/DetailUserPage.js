@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Link, Outlet, useLocation, useParams} from "react-router-dom";
+
 import {userService} from "../../services/user.service";
 import css from "./DetailUserPage.module.css"
 
@@ -32,7 +33,7 @@ const DetailUserPage = () => {
                     <div>Zipcode: {user.address.zipcode}</div>
                     <div>lat: {user.address.geo.lat}</div>
                     <div>lng: {user.address.geo.lng}</div>
-                    <div className={css.wrap_link}><Link to={'posts'}  state={user}>Button</Link></div>
+                    <div className={css.wrap_link}><Link to={'posts'}>Button</Link></div>
                 </div>
             )}
             <div><Outlet/></div>
