@@ -1,0 +1,8 @@
+.wrap_item{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.wrap_item img{
+    height: 100%;
+}
