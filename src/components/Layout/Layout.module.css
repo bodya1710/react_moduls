@@ -1,0 +1,24 @@
+.wraper{
+    display: flex;
+}
+.wrap_btn{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+    width: 40%;
+}
+.wrap_btn a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.wrap_btn a[class='active']{
+    color: deepskyblue;
+    border: 2px solid deepskyblue;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
