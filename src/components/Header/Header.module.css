@@ -1,0 +1,12 @@
+.wrap_header{
+    width: calc(100% - 20px);
+    height: 30px;
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.wrap_header a{
+    color: aliceblue;
+    text-decoration: none;
+}

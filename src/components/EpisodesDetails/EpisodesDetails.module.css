@@ -1,0 +1,9 @@
+.container_episode_detail{
+    border-radius: 15px;
+    width: 24%;
+    text-align: center;
+}
+.container_episode_detail span{
+    font-size: 18px;
+    font-weight: bold;
+}

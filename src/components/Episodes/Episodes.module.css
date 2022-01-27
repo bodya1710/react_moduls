@@ -1,0 +1,17 @@
+.container_item_episod{
+    display: flex;
+    flex-wrap: wrap;
+    width: 24%;
+    flex-direction: column;
+    justify-content: start;
+    background-color: deepskyblue;
+    padding: 10px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+.container_item_episod a{
+    color: antiquewhite;
+    font-size: 18px;
+    text-decoration: none;
+
+}

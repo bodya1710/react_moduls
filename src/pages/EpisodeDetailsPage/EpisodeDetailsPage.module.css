@@ -1,0 +1,16 @@
+.wrap_episodes{
+    display: flex;
+    flex: 1 1 24%;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 5px;
+}
+.header_title_episod_details{
+    background-color: silver;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
