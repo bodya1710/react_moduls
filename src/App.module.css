@@ -1,0 +1,5 @@
+.wrap_container_animal{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 5px;
+}

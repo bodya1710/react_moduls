@@ -1,0 +1,8 @@
+.wrap_form{
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+}
+form{
+    margin: 0 10px;
+}
