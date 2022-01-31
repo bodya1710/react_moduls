@@ -1,7 +1,6 @@
 import {useReducer} from "react";
 
 import {Cats, Dogs, Form} from "./componets";
-
 import css from './App.module.css';
 
 const  reducer = (state, action) => {
@@ -21,7 +20,6 @@ const  reducer = (state, action) => {
         return {...state, dogs: state.dogs.filter((item) => item.id !== action.payload)}
     }
     return state
-
 }
 
 function App() {

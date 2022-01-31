@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {Dog} from "../Dog/Dog";
 
 const Dogs = ({dogs,dispatch}) => {
