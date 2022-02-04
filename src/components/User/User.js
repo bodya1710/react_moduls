@@ -1,4 +1,5 @@
 import React from 'react';
+
 import css from './User.module.css'
 
 const User = ({user:{id, name, username}}) => {
