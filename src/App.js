@@ -1,10 +1,12 @@
-import {Cars, Form} from "./components";
+import {Cars, Form, Users, Posts} from "./components";
 
 function App() {
   return (
      <div>
-         <Form/>
-         <Cars/>
+         {/*<Form/>*/}
+         {/*<Cars/>*/}
+         <Users/>
+         <Posts/>
     </div>
   );
 }

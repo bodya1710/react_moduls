@@ -1,0 +1,6 @@
+.wrap_user{
+    display: flex;
+    padding: 5px 0;
+    border: 2px solid silver;
+    margin: 3px 0;
+}

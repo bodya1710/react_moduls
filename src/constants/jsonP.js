@@ -1,6 +1,6 @@
 const baseJSONPURL = 'https://jsonplaceholder.typicode.com';
 
-export const urlsJSONP ={
+export const urlsJSONP = {
     users:'/users',
     posts:'/posts',
     comments:'/comments'

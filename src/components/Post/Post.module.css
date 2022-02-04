@@ -1,0 +1,7 @@
+.wrap_post{
+    display: flex;
+    justify-content: center;
+    border: 2px solid silver;
+    margin: 3px 0;
+    padding: 5px 0;
+}
