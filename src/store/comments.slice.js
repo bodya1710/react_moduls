@@ -1,10 +1,12 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 
+import {jsonPService} from "../services";
+
 export const getAllComments = createAsyncThunk(
     'CommentsSlice/getAllComments',
     async (_,{rejectWithValue})=>{
         try {
-            const comments = await fetch('https://jsonplaceholder.typicode.com/comments').then(response => response.json()).then(json => json)
+            const comments = await jsonPService.getAllComments();
             return comments
         }catch (e) {
             rejectWithValue(e.message)

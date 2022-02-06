@@ -1,11 +1,13 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 
+import {jsonPService} from "../services";
+
 
 export const getAllUsers = createAsyncThunk(
     'UserSlice/getAllUsers',
     async (_,{rejectWithValue})=>{
         try {
-            const users = await fetch('https://jsonplaceholder.typicode.com/users').then(response => response.json()).then(json => json)
+            const users = await jsonPService.getAllUsers();
             return users
         }catch (e) {
             rejectWithValue(e.message)
